@@ -2,7 +2,7 @@ const typedText = document.getElementById('typed-text');
 const lines = [
   'const behzad = "Web Developer";',
   'console.log("Hello World!");',
-  'Made with 💜 using HTML & CSS'
+  'Made with 💜 using HTML & CSS & js'
 ];
 let lineIndex = 0;
 let charIndex = 0;
@@ -30,5 +30,6 @@ function typeLoop() {
 
   setTimeout(typeLoop, delay);
 }
+
 
 document.addEventListener('DOMContentLoaded', typeLoop);
