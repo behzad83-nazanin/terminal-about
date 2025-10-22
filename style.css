@@ -192,3 +192,39 @@ footer{
     0%, 50% {opacity: 1;}
     50.1%, 100%{opacity: 0;}
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .terminal {
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: none; 
+  }
+
+  .terminal-window {
+    height: auto;
+    padding: 20px;
+  }
+
+  .prompt {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .profile-pic {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+
